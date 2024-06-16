@@ -120,6 +120,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -329,6 +330,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -367,6 +369,7 @@
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/CustomBullet.cs"
+"Assets/Scripts/CutsceneManager.cs"
 "Assets/Scripts/Enemy/Bullet.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/Path.cs"
@@ -378,6 +381,7 @@
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interactables/Bartender.cs"
+"Assets/Scripts/Interactables/BoxScene.cs"
 "Assets/Scripts/Interactables/DoorScene.cs"
 "Assets/Scripts/Interactables/Key.cs"
 "Assets/Scripts/Interactables/Keypad.cs"
@@ -392,6 +396,7 @@
 "Assets/Scripts/PlayerScripts/PlayerLook.cs"
 "Assets/Scripts/PlayerScripts/PlayerMotor.cs"
 "Assets/Scripts/PlayerScripts/PlayerUI.cs"
+"Assets/Scripts/PlayerScripts/TeleportPlayer.cs"
 "Assets/Scripts/Sound.cs"
 "Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
 "Assets/UnityTechnologies/ParticlePack/Shared/Ramps/Runtime/RampAsset.cs"

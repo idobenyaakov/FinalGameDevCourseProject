@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
@@ -25,7 +26,16 @@ public class AudioManager : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("End");
 
         }
+        if (this.name == "AudioManagerScene3")
+        {
+            FindObjectOfType<AudioManager>().Play("End");
 
+        }
+        if (this.name == "AudioManagerScene4") // Replace with your actual scene name
+        {
+            //StartCoroutine(PlayRoarAndChase());
+            FindObjectOfType<AudioManager>().Play("Chase");
+        }
     }
     void Awake()
     {
@@ -72,6 +82,11 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-
+    private IEnumerator PlayRoarAndChase()
+    {
+        Play("Roar");
+        yield return new WaitForSeconds(3f);
+        Play("Chase");
+    }
 
 }

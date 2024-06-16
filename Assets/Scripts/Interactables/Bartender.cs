@@ -33,7 +33,7 @@ public class Bartender : Interactable
         yield return new WaitForSecondsRealtime(timer);
 
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         
     }
 }
